@@ -6,6 +6,7 @@ import {
   RxPaperPlane as DM,
 } from 'react-icons/all'
 import { WithHelper } from './WithHelper'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Hero() {
   const hmldnr = useHMLDNRLetter()
@@ -73,11 +74,11 @@ export default function Hero() {
                 <LinkedIn />
               </WithHelper>
             </a>
-            <button>
+            <HashLink to="/#contact" smooth>
               <WithHelper text="Contact Me" className="hero-social">
                 <DM className="-rotate-45" />
               </WithHelper>
-            </button>
+            </HashLink>
           </div>
         </div>
       </div>
