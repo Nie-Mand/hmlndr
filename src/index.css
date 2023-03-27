@@ -21,4 +21,53 @@
     .font-2 {
         font-family: 'font' !important;
     }
+
+    .desktop-only {
+        @apply hidden md:block;
+    }
+
+    .logo-char {
+      @apply font-black text-5xl md:text-[6rem] relative mx-2 duration-500 ease-in-out;
+      text-shadow: 4px 0px 0 #EE1D52, -4px 0px 0 #69C9D0;
+    }
+    .logo-char:hover {
+      text-shadow: -4px 0px 0 #EE1D52, 4px 0px 0 #69C9D0;
+    }
+
+    .logo-char-underline {
+      @apply after:w-full after:h-2 after:absolute after:top-full after:left-0 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:ease-in-out
+      before:w-full before:h-2 before:absolute before:top-full before:left-0 before:scale-x-0 hover:before:scale-x-100 before:duration-500 before:ease-in-out
+      hover:before:hover:duration-100
+      ;
+    }
+
+    .nav-url {
+      @apply font-medium relative text-sm
+      after:w-full after:h-0.5 after:absolute after:top-[110%] after:left-0 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:ease-in-out
+      before:w-full before:h-0.5 before:absolute before:top-[110%] before:left-0 before:scale-x-0 hover:before:scale-x-100 before:duration-500 before:ease-in-out
+      hover:before:hover:duration-100
+      after:bg-[#EE1D52] before:bg-[#69C9D0]
+      ;
+
+    }
+
+    .logo-char-underline-red {
+      @apply after:bg-[#EE1D52] before:bg-[#69C9D0];
+    }
+
+    .logo-char-underline-blue {
+      @apply after:bg-[#69C9D0] before:bg-[#EE1D52];
+    }
+
+    .hero-social {
+      @apply relative bg-white px-4 py-2 text-2xl
+      after:rotate-3 hover:after:-rotate-3 after:duration-300 after:ease-in-out after:absolute after:w-full after:-top-1 after:h-full after:-left-1 after:bg-[#EE1D52] after:-z-10
+      before:rotate-3 hover:before:-rotate-3 before:duration-300 before:ease-in-out  before:absolute before:w-full before:top-1 before:h-full before:left-1 before:bg-[#69C9D0] before:-z-10
+      ;
+    }
+
+    .helper {
+      @apply text-sm w-96 border py-3 shadow fixed right-1/2 translate-x-1/2 -bottom-10 group-hover:bottom-10 text-center duration-300 ease-in-out
+      ;
+    }
 }
