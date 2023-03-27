@@ -2,10 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Extra() {
   return (
-    <div
-      className="relative z-10 bg-black text-white py-32 grid place-content-center"
-      id="contact"
-    >
+    <div className="relative z-10 bg-black text-white py-32 grid place-content-center">
       <div className="">
         <h1 className="text-center ">
           {'NON TECHNICAL STUFF.'.split('').map((l, idx) => (
