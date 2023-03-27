@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react'
 import { HashLink } from 'react-router-hash-link'
+import Logo from './Logo'
 
 function useNavbar() {
   const [open, setOpen] = useState(false)
@@ -29,7 +30,7 @@ export default function Navbar() {
             ctrl.open ? 'border-b' : ''
           }`}
         >
-          <h1 className="text-xl font-black">HMLNDR.</h1>
+          <Logo />
           <div className="flex-1"></div>
           <h2 className="desktop-only nav-url">Whoami</h2>
           <h2 className="desktop-only nav-url">Projects</h2>

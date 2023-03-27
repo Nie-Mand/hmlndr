@@ -5,12 +5,13 @@ import {
   SlSocialLinkedin as LinkedIn,
   RxPaperPlane as DM,
 } from 'react-icons/all'
+import { WithHelper } from './WithHelper'
 
 export default function Hero() {
   const hmldnr = useHMLDNRLetter()
 
   return (
-    <div className="">
+    <div className="" id="top">
       <div className="fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
         <h1 className="">
           {'NIEMAND'.split('').map((l, idx) => (
@@ -84,15 +85,4 @@ export default function Hero() {
   )
 }
 
-function WithHelper(props: {
-  children: React.ReactNode
-  text: string
-  className?: string
-}) {
-  return (
-    <div className={`group ${props.className ?? ''}`}>
-      <div className="helper">{props.text}</div>
-      {props.children}
-    </div>
-  )
-}
+
