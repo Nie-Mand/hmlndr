@@ -24,11 +24,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-40">
+      <nav className="fixed top-0 w-full z-40 bg-white">
         <div
           className={`mx-4 md:mx-20 xl:mx-40 py-6 flex items-center space-x-4 ${
             ctrl.open ? 'border-b' : ''
-          }`}
+          } `}
         >
           <Logo />
           <div className="flex-1"></div>
