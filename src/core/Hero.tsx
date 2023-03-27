@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div className="">
       <div className="fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
-        <h1 className="">
+        <h1 className="select-none">
           {'NIEMAND'.split('').map((l, idx) => (
             <span
               key={idx}
