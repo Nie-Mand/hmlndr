@@ -13,12 +13,12 @@ export default function Contact() {
           ))}
         </h1>
 
-        <div className="pt-20 py-10 grid grid-cols-2 gap-4">
-          <label className="flex flex-col items-start space-y-3">
+        <div className="px-4 pt-20 py-10 grid grid-cols-2 gap-4">
+          <label className="flex flex-col items-start space-y-3 col-span-2 md:col-span-1">
             <span className="text-sm">Name</span>
             <input type="text" className="input" name="name" />
           </label>
-          <label className="flex flex-col items-start space-y-3">
+          <label className="flex flex-col items-start space-y-3 col-span-2 md:col-span-1">
             <span className="text-sm">Email</span>
             <input type="email" className="input" name="email" />
           </label>
