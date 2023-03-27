@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div className="">
       <div className="fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
-        <h1 className="select-none">
+        <h1 className="">
           {'NIEMAND'.split('').map((l, idx) => (
             <span
               key={idx}
@@ -23,7 +23,7 @@ export default function Hero() {
           ))}
         </h1>
       </div>
-      <div className="h-screen grid place-content-center">
+      <div className="h-screen grid place-content-center select-none">
         <div>
           <WithHelper text="Scroll Down">
             <h1 className="text-center">
@@ -46,7 +46,7 @@ export default function Hero() {
             </h1>
           </WithHelper>
 
-          <div className="mt-20 relative z-[1] ">
+          <div className="mt-20 relative z-[1] select-none">
             <q className="flex items-center justify-center font-medium group">
               <div className="w-0 group-hover:w-4 duration-300 ease-in-out"></div>
               <span className="text-xl">{getQuote(hmldnr.l)}</span>
