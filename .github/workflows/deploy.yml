@@ -1,8 +1,9 @@
 name: Portfolio
 run-name: ${{ github.actor }} shipping his next - hopefully last - portfolio 🚀
 on: [push]
+
 jobs:
-  build:
+  ship-it:
     name: Build
     runs-on: ubuntu-latest
     steps:
