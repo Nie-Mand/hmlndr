@@ -85,20 +85,24 @@ export default function About() {
                 <br />I have been an honorable member in the Association of
                 Computer Machinery ACM for Contributing to the
                 <WithHelper
-                  className="inline colored-blue"
+                  className="inline"
                   text="Built it with Adam Lahbib, Deployed by Mohamed Rafraf, the gate into recognition"
                 >
-                  {' '}
-                  `Programming Battle Royale` Project
-                </WithHelper>{' '}
+                  <span className="colored-blue">
+                    {' '}
+                    `Programming Battle Royale` Project{' '}
+                  </span>
+                </WithHelper>
                 .I have contributed to many workshops, some of are Solidty
                 Workshop with
                 <WithHelper
-                  className="inline colored-blue font-black"
+                  className="inline"
                   text="Building the Club from Scratch with Nour Mami and Vicyyn 💫"
                 >
-                  {' '}
-                  Dar Blockchain, the INSAT Chapter{' '}
+                  <span className="colored-blue font-black">
+                    {' '}
+                    Dar Blockchain, the INSAT Chapter{' '}
+                  </span>
                 </WithHelper>
                 , and
                 <WithHelper
