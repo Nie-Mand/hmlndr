@@ -23,7 +23,7 @@ export default function Splash(props: Props) {
       <div
         className={`${
           props.fixed ? 'fixed' : 'absolute'
-        } fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 select-none`}
+        } overflow-hidden w-screen top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 select-none`}
       >
         <h1 className="">
           {props.description.split('').map((l, idx) => (

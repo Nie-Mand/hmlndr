@@ -32,13 +32,13 @@ export default function Navbar() {
         >
           <Logo />
           <div className="flex-1"></div>
-          <HashLink to="#about" className="desktop-only nav-url" smooth>
+          <HashLink to="/#about" className="desktop-only nav-url" smooth>
             Whoami
           </HashLink>
-          <HashLink to="#projects" className="desktop-only nav-url" smooth>
+          <HashLink to="/#projects" className="desktop-only nav-url" smooth>
             Projects
           </HashLink>
-          <HashLink to="#contact" className="desktop-only nav-url" smooth>
+          <HashLink to="/#contact" className="desktop-only nav-url" smooth>
             Contact
           </HashLink>
           <a
