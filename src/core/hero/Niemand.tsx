@@ -1,6 +1,6 @@
 export default function NIEMAND() {
   return (
-    <div className="overflow-hidden w-screen fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
+    <div className="overflow-hidden  fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
       <h1 className="">
         {'NIEMAND'.split('').map((l, idx) => (
           <span

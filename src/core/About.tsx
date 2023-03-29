@@ -54,7 +54,7 @@ export default function About() {
           </div>
           <div className="grid place-content-center col-span-2 md:col-span-1">
             <div>
-              <p className="px-4 pt-10 max-w-xl font-medium">
+              <div className="px-4 pt-10 max-w-xl font-medium">
                 My name is
                 <span className="colored-red"> Mohammad Sofiane Barka </span>,
                 I'm a <span className="colored-blue font-black"> Full </span>{' '}
@@ -115,7 +115,7 @@ export default function About() {
                   </span>
                   INSAT as DevOps and Cloud Instructor
                 </WithHelper>
-              </p>
+              </div>
             </div>
           </div>
 
