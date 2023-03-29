@@ -32,8 +32,12 @@ export default function Navbar() {
         >
           <Logo />
           <div className="flex-1"></div>
-          <h2 className="desktop-only nav-url">Whoami</h2>
-          <h2 className="desktop-only nav-url">Projects</h2>
+          <HashLink to="#about" className="desktop-only nav-url" smooth>
+            Whoami
+          </HashLink>
+          <HashLink to="#projects" className="desktop-only nav-url" smooth>
+            Projects
+          </HashLink>
           <HashLink to="#contact" className="desktop-only nav-url" smooth>
             Contact
           </HashLink>

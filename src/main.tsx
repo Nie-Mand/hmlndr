@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import './keyframes.css'
 import './fonts.css'
-import Navbar from './core/Navbar'
+import './index.css'
 import { BrowserRouter } from 'react-router-dom'
-import Footer from './core/Footer'
+import { FullLoading } from './core/Loading'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Navbar />
-      <App />
-      <Footer />
-    </BrowserRouter>
+    <Suspense fallback={<FullLoading />}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Suspense>
   </React.StrictMode>
 )

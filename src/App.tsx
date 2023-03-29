@@ -1,17 +1,14 @@
-import Contact from './core/Contact'
-import Extra from './core/Extra'
-import Hero from './core/Hero'
+import Footer from './core/Footer'
+import Navbar from './core/Navbar'
+import Routes from './core/routes'
 
 function App() {
   return (
-    <div>
-      <Hero />
-      <div className="relative  bg-white h-screen">
-        <h1 className="font-bold">hello world</h1>
-      </div>
-      <Extra />
-      <Contact />
-    </div>
+    <>
+      <Navbar />
+      <Routes />
+      <Footer />
+    </>
   )
 }
 

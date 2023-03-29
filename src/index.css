@@ -72,6 +72,14 @@
       @apply after:bg-[#EE1D52] before:bg-[#69C9D0];
     }
 
+    .colored-red {
+      @apply text-[#EE1D52];
+    }
+
+    .colored-blue {
+      @apply text-[#69C9D0];
+    }
+
     .logo-char-underline-blue {
       @apply after:bg-[#69C9D0] before:bg-[#EE1D52];
     }
@@ -92,4 +100,26 @@
     .input {
       @apply w-full border px-4 py-2 outline-none duration-200 ease-in-out focus:border-none focus:ring ring-[#69C9D0];
     }
+
+    .cool-animation-left {
+      animation: 6s infinite cool-animation-l ease-in-out;
+    }
+
+    .cool-animation-right {
+      animation: 6s infinite cool-animation-r ease-in-out;
+    }
+
+    .cool-animation-left-no-rotate {
+      animation: 6s infinite cool-animation-l-no-rotate ease-in-out;
+    }
+
+    .cool-animation-right-no-rotate {
+      animation: 6s infinite cool-animation-r-no-rotate ease-in-out;
+    }
+
+    .cool-animation-rotating {
+      animation: 6s infinite cool-animation-rotate ease-in-out;
+    }
+
+    
 }

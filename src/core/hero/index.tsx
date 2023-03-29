@@ -1,30 +1,20 @@
-import { useHMLDNRLetter } from './hooks'
-import { getQuote } from './utils'
+import { useHMLDNRLetter } from '~/core/hooks'
+import { getQuote } from '~/core/utils'
 import {
   SlSocialGithub as Github,
   SlSocialLinkedin as LinkedIn,
   RxPaperPlane as DM,
 } from 'react-icons/all'
-import { WithHelper } from './WithHelper'
+import { WithHelper } from '~/core/WithHelper'
 import { HashLink } from 'react-router-hash-link'
+import NIEMAND from './Niemand'
 
 export default function Hero() {
   const hmldnr = useHMLDNRLetter()
 
   return (
     <div className="" id="top">
-      <div className="fixed top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 -z-0 select-none">
-        <h1 className="">
-          {'NIEMAND'.split('').map((l, idx) => (
-            <span
-              key={idx}
-              className="text-[7rem] md:text-[14rem] font-black text-gray-100 duration-500 ease-out hover:ease-out hover:duration-500 hover:text-[10rem] md:hover:text-[20rem] hover:p-10"
-            >
-              {l}
-            </span>
-          ))}
-        </h1>
-      </div>
+      <NIEMAND />
       <div className="h-screen grid place-content-center select-none">
         <div>
           <WithHelper text="Scroll Down">
@@ -57,7 +47,7 @@ export default function Hero() {
           </div>
 
           <div className="pt-20 flex items-center justify-center space-x-6 relative z-[1]">
-            <a href="#" target="_blank">
+            <a href="https://github.com/Nie-Mand" target="_blank">
               <WithHelper
                 text="Visit My GitHub @Nie-Mand"
                 className="hero-social"
@@ -66,7 +56,7 @@ export default function Hero() {
               </WithHelper>
             </a>
 
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/nie-mand/" target="_blank">
               <WithHelper
                 text="Visit My LinkedIn 'Mohamed Sofiene'"
                 className="hero-social"
@@ -85,5 +75,3 @@ export default function Hero() {
     </div>
   )
 }
-
-
