@@ -39,7 +39,7 @@ export default function Projects() {
               href="https://github.com/Nie-Mand"
               target="_blank"
               rel="noreferrer noopener"
-              className="m-4 hero-social text-xs bg-black text-white"
+              className="m-4 hero-social text-xs text-black"
             >
               Checkout my Github for more projects
             </a>
