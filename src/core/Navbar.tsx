@@ -78,14 +78,24 @@ export default function Navbar() {
     `}
       >
         <div className="flex flex-col items-center justify-center space-y-6">
-          <h2 className="nav-url" onClick={ctrl.close}>
-            Whoami
-          </h2>
-          <h2 className="nav-url" onClick={ctrl.close}>
-            Projects
-          </h2>
           <HashLink
-            to="#contact"
+            to="/#about"
+            className="nav-url"
+            smooth
+            onClick={ctrl.close}
+          >
+            Whoami
+          </HashLink>
+          <HashLink
+            to="/#projects"
+            className="nav-url"
+            smooth
+            onClick={ctrl.close}
+          >
+            Projects
+          </HashLink>
+          <HashLink
+            to="/#contact"
             className="nav-url"
             smooth
             onClick={ctrl.close}

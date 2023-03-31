@@ -1,0 +1,277 @@
+[
+    {
+        "title": "NCSC 2k23 - National Cyber Security Congress",
+        "when": "19-21 Mars 2023",
+        "description": [
+            "This Event was organized by Securinets INSAT on 19-21 Mars 2023.", 
+            "I have contributed with 2 challenges in the Web Exploitation category in the Main CTF. A Frontend Task and a Deno Jail.",
+            "I have also contributed with 5 challenges in the Hackback Series, Including Deno Reverse Engineering, RCE, LFI, Basic Blockchain Enumeration, OSINT, and Steganography.",
+            "My challenges were written in Typescript."
+        ],
+        "image": "/projects/ncsc.jpg",
+        "links": [],
+        "tags": ["CTF", "TS", "2023"],
+        "note": null
+      },
+  {
+    "title": "Securinets CTFs",
+    "when": "",
+    "description": [
+        "This Website acts as a placeholder for CTF events organized by Securinets.",
+        "It is built using React, Typescript and Tailwind."
+    ],
+    "image": "/projects/ctf-securinets.png",
+    "links": [
+      {
+        "label": "Visit the website",
+        "url": "https://ctf.securinets.tn/"
+      }
+    ],
+    "tags": ["React", "TS", "2023"],
+    "note": null
+  },
+  {
+    "title": "The Love Bug CTF - Web Exploitation",
+    "when": "14 Feb 2023",
+    "description": [
+        "This CTF was organized by Securinets INSAT on 14th February 2023.",
+        "I have contributed with 3 challenges in the Web Exploitation category. A Frontend Task, a Web RCE and a Blind SQL Injection in Go Challenge.",
+        "My challenges were written in Typescript, Python and Go."
+    ],
+    "image": "/projects/omingle.png",
+    "links": [
+      {
+        "label": "Try the tasks",
+        "url": "https://hmlndr.vercel.app/"
+      },
+      {
+        "label": "Read the writeups",
+        "url": "https://github.com/hmlndrr/The-Love-Bug-CTF"
+      }
+    ],
+    "tags": ["CTF", "TS", "Python", "Go", "2023"],
+    "note": null
+  },
+  {
+    "title": "ENIT CTF - Web Exploitation",
+    "when": "4 Feb 2023",
+    "description": [
+        "This CTF was organized by ENIT on 4th February 2023.",
+        "I have contributed with 8 challenges in the Web Exploitation category.",
+        "The Tasks inlcude various types like RCE, LFI, SQLi, Blackbox, Deno Jail..",
+        "My challenges were written in Typescript, Python and Go."
+    ],
+    "image": "/projects/enit-ctf.jpg",
+    "links": [
+      {
+        "label": "Try the tasks",
+        "url": "https://hmlndr.vercel.app/"
+      },
+      {
+        "label": "Read the writeups",
+        "url": "https://github.com/hmlndrr/ENIT-CTF-Web-Writeups"
+      }
+    ],
+    "tags": ["CTF", "TS", "Python", "Go", "Neo4J", "2023"],
+    "note": "This CTF is my first ever experience as an Author."
+  },
+  {
+    "title": "DIGINVO",
+    "when": "Jan 2023",
+    "description": [
+        "Diginvo is a platform that allows you to create & manage invoices",
+        "The Platform is build on Private Hyperledger Fabric Network.",
+        "The Frontend is built using React, Typescript and Tailwind.",
+        "Won Second Place in the I-Techrity Hackathon from IWatch"
+    ],
+    "image": "/projects/diginvo.png",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/orgs/hmlndr-iw/repositories"
+      },
+      {
+        "label": "Watch the Demo",
+        "url": "https://gigcdgovfiatznrijwlx.supabase.co/storage/v1/object/public/demos/diginvo.webm"
+      }
+    ],
+    "tags": ["TS", "React", "Hyperledger", "Hackathons", "2023"],
+    "note": "First time using Hyperledger Fabric."
+  },
+  {
+    "title": "Investee",
+    "when": "Jan 2023",
+    "description": [
+        "This work was part of an academic project in Scrum methodology.",
+        "Investee is a platform that allows you as an event holder, athlete, etc to look for sponsors",
+        "I have contributed to the Frontend of the platform using React, Typescript and Tailwind."
+    ],
+    "image": "/projects/investee.png",
+    "links": [
+      {
+        "label": "Watch the Demo",
+        "url": "https://drive.google.com/file/d/1vMfMGOtFjF_Mu7jZoHC0FrFVbZqeWs6d/view?usp=share_link"
+      }
+    ],
+    "tags": ["TS", "React", "Academic", "2023"],
+    "note": null
+  },
+  {
+    "title": "Gosher",
+    "when": "Dec 2022",
+    "description": [
+        "This work was part of an academic project in Distributed Systems.",
+        "A file sharing protocol, built with Golang and gRPC."
+    ],
+    "image": "/projects/gosher.jpeg",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/Nie-Mand/Gosher"
+      }
+    ],
+    "tags": ["Go", "gRPC", "Academic", "2022"],
+    "note": null
+  },
+  {
+    "title": "KANG, the Multiverse",
+    "when": "Dec 2022",
+    "description": [
+        "This Project was part of the Tunisian Metaverse Summit Hackathon.",
+        "The Kang Protocol is promised to be the Metaverse Project that brings all metaverses to each other, by providing a Developer friendly API to create and manage Users Identities, Assets... with the possibility of interacting with other metaverses built with the same Protocol, therefore building the Multiverse or Interoperability."
+    ],
+    "image": "/projects/kang.png",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/kang-by-xoverse"
+      }
+    ],
+    "tags": ["Go", "Metaverse", "Blockchain", "Hackathons", "2022"],
+    "note": null
+  },
+  {
+    "title": "Eduverse",
+    "when": "Nov 2022",
+    "description": [
+        "This Project was part of the The Upside Education Hackathon.",
+        "Eduverse is an Educational Metaverse that aims to provide a platform for students to learn and interact with each other in a virtual environment."
+    ],
+    "image": "/projects/eduverse.png",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/Nie-Mand/babylon-attempt"
+      },
+      {
+        "label": "Check out the Website",
+        "url": "https://eduverse.vercel.app/"
+      }
+    ],
+    "tags": ["TS", "Metaverse", "BabylonJS", "Hackathons", "2022"],
+    "note": null
+  },
+  {
+    "title": "Spendenbox",
+    "when": "Oct 2022",
+    "description": [
+        "This Project was part of the The FSB Hackathon.",
+        "Spendenbox is a platform that allows you to create and manage donation and campaign boxes.",
+        "The Platform is built using React, Typescript, NestJS, Solidity and Stripe.",
+        "Won First Place in the FSB Hackathon"
+    ],
+    "image": "/projects/fsb.png",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/orgs/RT4-WebProject/repositories"
+      },
+      {
+        "label": "Check out the Website",
+        "url": "https://drive.google.com/file/d/1XE6jwi1NF-ZhdKGMlV59WVhZI3rtECVG/view?usp=share_link"
+      }
+    ],
+    "tags": ["TS", "React", "Blockchain", "Hackathons", "2022"],
+    "note": null
+  },
+  {
+    "title": "Kane, TICAD8",
+    "when": "sept 2022",
+    "description": [
+        "This Project was part of the The TICAD8 Hackathon.",
+        "Kane is a Carbon Emission Footprint Monitoring Platform that allows you to monitor your carbon footprint in real time",
+        "The Platform is built using React, Typescript, Go.",
+        "Won First Place in the TICAD8 Hackathon, Carbon Emission Challenge"
+    ],
+    "image": "/projects/kane.png",
+    "links": [
+    ],
+    "tags": ["TS", "React", "Go", "Hackathons", "2022"],
+    "note": null
+  },
+  {
+    "title": "Talan, Summer Internship 2022",
+    "when": "july-auguest 2022",
+    "description": [
+        "As part of the summer internship at Innovation Factory at Talan Tunisia, I have worked on building a Blockchain Infrastructure for a Sport Metaverse.",
+        "The Platform is built using React, Typescript, Solidity, Polygon.",
+        "I have worked on Decentralized Identity, DAOs, and built a frontend for the DAO.",
+        "Was recognized as the best interns team, voted by the Talan Jury."
+    ],
+    "image": "/projects/talan.png",
+    "links": [
+    ],
+    "tags": ["TS", "React", "Blockchain", "Internship", "2022"],
+    "note": null
+  },
+  {
+    "title": "Implementing DevOps with Kubernetes and Microservices",
+    "when": " 2022",
+    "description": [
+        "This work was part of an academic project in The Final Year Project 2022.",
+        "We have successfully built our own Memes App, fully in microservices, wrote the CI Pipelines and deployed it all to Microsoft Azure on Kubernetes."
+    ],
+    "image": "/projects/ppp.png",
+    "links": [
+        {
+            "label": "Check out Gitlab Repo",
+            "url": "https://gitlab.com/Nie-Mand/insat-rt3-ppp/"
+        },
+        {
+            "label": "Read the Report",
+            "url": "https://www.linkedin.com/posts/nie-mand_ppp-report-activity-6938658777415999488-V4WB"
+        }
+    ],
+    "tags": ["DevOps", "Kubernetes", "Academic", "2022"],
+    "note": "First DevOps Project, I kinda Like Kubernetes now."
+  },
+  {
+    "title": "The Programming Battle Royale 2022",
+    "when": " 2022",
+    "description": [
+        "Built, Deployed & monitored A Competitive Programming Platform that were used to host a Real world Contest"
+
+    ],
+    "image": "/projects/pbr.png",
+    "links": [
+        {
+            "label": "Visit the website",
+            "url": "https://tpbr.vercel.app/"
+        }
+    ],
+    "tags": ["React", "TS", "GraphQL", "2022"],
+    "note": "First Big Project that I have worked on"
+  },
+  {
+    "title": "Street Car Hub, Summer Internship 2021",
+    "when": "july-auguest 2021",
+    "description": [
+        "As part of the summer internship at Street Car Hub, I have worked on building a Calendar View To Handle Appointments using ReactJS, Redux"
+    ],
+    "image": "/projects/sch.jpg",
+    "links": [
+    ],
+    "tags": ["React", "Redux", "Internship", "2021"],
+    "note": "Learned a lot from my Supervisor"
+  }
+]

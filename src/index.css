@@ -121,5 +121,9 @@
       animation: 6s infinite cool-animation-rotate ease-in-out;
     }
 
+    .project-image {
+      @apply w-full h-80 object-cover bg-center shadow-xl grayscale hover:grayscale-0 hover:scale-105 duration-300 ease-in-out
+      ;
+    }
     
 }
