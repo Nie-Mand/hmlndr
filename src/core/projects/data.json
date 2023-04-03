@@ -187,7 +187,7 @@
         "url": "https://github.com/orgs/RT4-WebProject/repositories"
       },
       {
-        "label": "Check out the Website",
+        "label": "Watch the Demo",
         "url": "https://drive.google.com/file/d/1XE6jwi1NF-ZhdKGMlV59WVhZI3rtECVG/view?usp=share_link"
       }
     ],
@@ -249,8 +249,8 @@
     "title": "The Programming Battle Royale 2022",
     "when": " 2022",
     "description": [
-        "Built, Deployed & monitored A Competitive Programming Platform that were used to host a Real world Contest"
-
+        "Built, Deployed & monitored A Competitive Programming Platform that were used to host a Real world Contest",
+        "The Platform is based on Rounds and Qualification and Speed. The first 90% to solve the Problem gets qualied to the next round and so on till there's only 3 teams left"
     ],
     "image": "/projects/pbr.png",
     "links": [
@@ -263,6 +263,18 @@
     "note": "First Big Project that I have worked on"
   },
   {
+    "title": "Billini Menu Challenge",
+    "when": "Feb 2022",
+    "description": [
+      "Developed A Website For 'Bellini Sousse' In The Context Of Catering",
+      "Was part of Bellini Challenge, Feb 2022 in Sousse"
+    ],
+    "image": "/projects/bellini.png",
+    "links": [],
+    "tags": ["React", "Hackathons", "2022"],
+    "note": "Just when I started to get to know Business"
+  },
+  {
     "title": "Street Car Hub, Summer Internship 2021",
     "when": "july-auguest 2021",
     "description": [
@@ -273,5 +285,34 @@
     ],
     "tags": ["React", "Redux", "Internship", "2021"],
     "note": "Learned a lot from my Supervisor"
+  },
+  {
+    "title": "Trask",
+    "when": "december 2021",
+    "description": [
+      "Collaborated On Building 'Trask' Project That Helps Garbage Men Do Their Work And Limit Pollution",
+      "Built with Redis, Express, React, Leaflet."
+    ],
+    "image": "/projects/trask.png",
+    "links": [],
+    "tags": ["React", "Leaflet", "Redis", "Hackathons", "2021"],
+    "note": null
+  },
+  {
+    "title": "Sollectify",
+    "when": "july 2021",
+    "description": [
+      "Sollectify is a creator-centric NFT marketplace where users on the platform can easily create, trade and sell non-fungible tokens (NFTs) for their unique digital items like artworks, game items and more. ",
+      "Built on @Solana sunny and @ProjectSerum"
+    ],
+    "image": "/projects/sollectify.jpeg",
+    "links": [
+      {
+        "label": "Check out Github Repo",
+        "url": "https://github.com/vicyyn/sollectify"
+      }
+    ],
+    "tags": ["React", "Solana", "Hackathons", "2021"],
+    "note": "First Step into Blockchain"
   }
 ]

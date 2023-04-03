@@ -41,7 +41,7 @@ export default function Projects() {
               rel="noreferrer noopener"
               className="m-4 hero-social text-xs text-black"
             >
-              Checkout my Github for more projects
+              More projects
             </a>
           </div>
         </div>
