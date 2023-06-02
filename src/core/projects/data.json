@@ -3,7 +3,7 @@
     "title": "Kli8nt - Streamlined Applications Deployment for Kubernetes",
     "when": "May 2023",
     "description": [
-      "This work was part of an academic project in The Final Year Project 2022.",
+      "This work was part of an academic project in The Final Year Project 2023.",
       "We have built our own Platform as a Service (PaaS), called Kli8nt, where you can authenticate with Github, select a repository, fill some details (Tech stack, build command, env variables..) and you'll get your application automatically deployed on Kubernetes, with TLS support and Logs Observation."
     ],
     "image": "/projects/kli8n1.png",
