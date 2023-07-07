@@ -9,6 +9,10 @@
     "image": "/projects/kli8n1.png",
     "links": [
       {
+        "url": "https://4n6nk8s.tech/2023/06/03/Kubernetes/post/",
+        "label": "Read the Blog Post"
+      },
+      {
         "url": "https://github.com/kli8nt",
         "label": "Check out Github Repo"
       }
