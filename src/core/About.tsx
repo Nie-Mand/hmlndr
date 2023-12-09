@@ -16,41 +16,47 @@ export default function About() {
           ))}
         </h1>
 
+        <div className="flex justify-center absolute top-0 right-0 opacity-40">
+          <img src="/insat.png" alt="" className="h-80 mx-auto -rotate-12" />
+        </div>
+
         <div className="grid grid-cols-2">
-          <div className="relative h-80 col-span-2 md:col-span-1 group">
-            <svg
-              className="w-40 h-40 absolute top-1/2 right-1/2 cool-animation-left-no-rotate"
-              viewBox="0 0 394 406"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
-                fill="#EE1D52"
-              />
-            </svg>
-            <svg
-              className="w-40 h-40 absolute top-1/2 right-1/2 z-[70] translate-x-1/2 -translate-y-1/2 group-active:scale-110 duration-300 ease-in-out"
-              viewBox="0 0 394 406"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
-                fill="white"
-              />
-            </svg>
-            <svg
-              className="w-40 h-40  absolute top-1/2 right-1/2 cool-animation-right-no-rotate"
-              viewBox="0 0 394 406"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
-                fill="#69C9D0"
-              />
-            </svg>
+          <div className="grid place-content-center col-span-2 md:col-span-1">
+            <div className="relative h-80 group">
+              <svg
+                className="w-40 h-40 absolute top-1/2 right-1/2 cool-animation-left-no-rotate"
+                viewBox="0 0 394 406"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
+                  fill="#EE1D52"
+                />
+              </svg>
+              <svg
+                className="w-40 h-40 absolute top-1/2 right-1/2 z-[70] translate-x-1/2 -translate-y-1/2 group-active:scale-110 duration-300 ease-in-out"
+                viewBox="0 0 394 406"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                className="w-40 h-40  absolute top-1/2 right-1/2 cool-animation-right-no-rotate"
+                viewBox="0 0 394 406"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M394 0L259.019 210.609L394 406H0L134.981 199.652L0 0H394Z"
+                  fill="#69C9D0"
+                />
+              </svg>
+            </div>
           </div>
           <div className="grid place-content-center col-span-2 md:col-span-1">
             <div>
@@ -113,8 +119,47 @@ export default function About() {
                   <span className="colored-red">
                     Google Developers Student Club (GDSC INSAT) and Securinets{' '}
                   </span>
-                  INSAT as DevOps and Cloud Instructor
+                  INSAT as DevOps and Cloud Instructor.
                 </WithHelper>
+                <br />
+                <br />I have Interned as a{' '}
+                <WithHelper
+                  className="inline"
+                  text="Basically doing React and Redux"
+                >
+                  <span className="colored-red">Frontend Developer</span> at
+                  <span className="colored-blue"> Street Car Hub </span>
+                </WithHelper>
+                , a{' '}
+                <WithHelper
+                  className="inline"
+                  text="Hackathon-like Internship, Won Best Team Award"
+                >
+                  <span className="colored-red">Blockchain Developer</span> at
+                  <span className="colored-blue">
+                    {' '}
+                    Talan Innovation Factory{' '}
+                  </span>
+                </WithHelper>
+                , and a{' '}
+                <WithHelper
+                  className="inline"
+                  text="DevOps, Architecting and Experimenting"
+                >
+                  <span className="colored-red">
+                    Site Reliability Engineering Intern
+                  </span>{' '}
+                  at{' '}
+                  <span className="colored-blue">
+                    {' '}
+                    Vneuron Risk and Compliance{' '}
+                  </span>
+                  .{' '}
+                </WithHelper>
+                Spent Some Time as a{' '}
+                <span className="colored-red">Platform Engineer</span> working
+                with Kubernetes and Controllers at{' '}
+                <span className="colored-blue">PCP Consulting</span>.
               </div>
             </div>
           </div>
