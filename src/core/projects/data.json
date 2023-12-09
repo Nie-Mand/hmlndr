@@ -1,5 +1,58 @@
 [
   {
+    "title": "DevOps Course - Project",
+    "when": "November 2023",
+    "description": [
+      "This work was part of an academic project in DevOps Course.",
+      "I have successfully built a Microservices Application, with a Frontend, 2 Backend Services, Wrote the Unit Tests, Built the CI/CD Pipelines, and deployed it all to Kubernetes. I have also prepared a Documentation for the project using Confluence, and Managed the Project using Jira.",
+      "Aside from the project, I have also prepared a presentation about Distributed Tracing with Jaeger as part of the course."
+    ],
+    "image": "/projects/jaeger.png",
+    "links": [
+      {
+        "label": "Check out the repository",
+        "url": "https://gitlab.com/devops-rtv-labs/DevOps-Project"
+      }
+    ],
+    "tags": ["DevOps", "Kubernetes", "Academic", "2023"],
+    "note": null
+  },
+  {
+    "title": "UTOPIA - Securinets Friendly CTF",
+    "when": "30 September 2023",
+    "description": [
+      "This CTF was organized by Securinets INSAT on 30 September 2023.",
+      "I have contributed with 20 challenges in Various categories. Web Exploitation, Reverse Engineering, Cryptography... In a Friendly manner for new upcomers to the CTF Scene.",
+      "My challenges were written in Typescript, Python and Go."
+    ],
+    "links": [
+      {
+        "label": "Check out the repository",
+        "url": "https://github.com/Nie-Mand/UTOPIA"
+      }
+    ],
+    "image": "/projects/utopia.png",
+    "tags": ["CTF", "TS", "Python", "Go", "2023"],
+    "note": null
+  },
+  {
+    "title": "Google Cloud Certified Professional Cloud Architect",
+    "when": "September 2023",
+    "description": [
+      "I have successfully passed the Google Cloud Certified Professional Cloud Architect exam.",
+      "I have learned a lot about Google Cloud Platform, and I am now able to design, develop, and manage dynamic solutions that are robust, scalable, and highly available."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:400/1*BuKn3ZAd93GVDtKNGT9xxg.png",
+    "links": [
+      {
+        "url": "https://google.accredible.com/ff7ad23a-4f27-4b1d-843c-e7b3625a855c",
+        "label": "Check out the Certificate"
+      }
+    ],
+    "tags": ["GCP", "Cloud", "2023"],
+    "note": ""
+  },
+  {
     "title": "Kli8nt - Streamlined Applications Deployment for Kubernetes",
     "when": "May 2023",
     "description": [
@@ -20,26 +73,26 @@
     "tags": ["Academic", "Go", "Kubernetes", "2023"],
     "note": null
   },
-    {
-        "title": "NCSC 2k23 - National Cyber Security Congress",
-        "when": "19-21 Mars 2023",
-        "description": [
-            "This Event was organized by Securinets INSAT on 19-21 Mars 2023.", 
-            "I have contributed with 2 challenges in the Web Exploitation category in the Main CTF. A Frontend Task and a Deno Jail.",
-            "I have also contributed with 5 challenges in the Hackback Series, Including Deno Reverse Engineering, RCE, LFI, Basic Blockchain Enumeration, OSINT, and Steganography.",
-            "My challenges were written in Typescript."
-        ],
-        "image": "/projects/ncsc.jpg",
-        "links": [],
-        "tags": ["CTF", "TS", "2023"],
-        "note": null
-      },
+  {
+    "title": "NCSC 2k23 - National Cyber Security Congress",
+    "when": "19-21 Mars 2023",
+    "description": [
+      "This Event was organized by Securinets INSAT on 19-21 Mars 2023.",
+      "I have contributed with 2 challenges in the Web Exploitation category in the Main CTF. A Frontend Task and a Deno Jail.",
+      "I have also contributed with 5 challenges in the Hackback Series, Including Deno Reverse Engineering, RCE, LFI, Basic Blockchain Enumeration, OSINT, and Steganography.",
+      "My challenges were written in Typescript."
+    ],
+    "image": "/projects/ncsc.jpg",
+    "links": [],
+    "tags": ["CTF", "TS", "2023"],
+    "note": null
+  },
   {
     "title": "Securinets CTFs",
     "when": "",
     "description": [
-        "This Website acts as a placeholder for CTF events organized by Securinets.",
-        "It is built using React, Typescript and Tailwind."
+      "This Website acts as a placeholder for CTF events organized by Securinets.",
+      "It is built using React, Typescript and Tailwind."
     ],
     "image": "/projects/ctf-securinets.png",
     "links": [
@@ -55,9 +108,9 @@
     "title": "The Love Bug CTF - Web Exploitation",
     "when": "14 Feb 2023",
     "description": [
-        "This CTF was organized by Securinets INSAT on 14th February 2023.",
-        "I have contributed with 3 challenges in the Web Exploitation category. A Frontend Task, a Web RCE and a Blind SQL Injection in Go Challenge.",
-        "My challenges were written in Typescript, Python and Go."
+      "This CTF was organized by Securinets INSAT on 14th February 2023.",
+      "I have contributed with 3 challenges in the Web Exploitation category. A Frontend Task, a Web RCE and a Blind SQL Injection in Go Challenge.",
+      "My challenges were written in Typescript, Python and Go."
     ],
     "image": "/projects/omingle.png",
     "links": [
@@ -77,10 +130,10 @@
     "title": "ENIT CTF - Web Exploitation",
     "when": "4 Feb 2023",
     "description": [
-        "This CTF was organized by ENIT on 4th February 2023.",
-        "I have contributed with 8 challenges in the Web Exploitation category.",
-        "The Tasks inlcude various types like RCE, LFI, SQLi, Blackbox, Deno Jail..",
-        "My challenges were written in Typescript, Python and Go."
+      "This CTF was organized by ENIT on 4th February 2023.",
+      "I have contributed with 8 challenges in the Web Exploitation category.",
+      "The Tasks inlcude various types like RCE, LFI, SQLi, Blackbox, Deno Jail..",
+      "My challenges were written in Typescript, Python and Go."
     ],
     "image": "/projects/enit-ctf.jpg",
     "links": [
@@ -100,10 +153,10 @@
     "title": "DIGINVO",
     "when": "Jan 2023",
     "description": [
-        "Diginvo is a platform that allows you to create & manage invoices",
-        "The Platform is build on Private Hyperledger Fabric Network.",
-        "The Frontend is built using React, Typescript and Tailwind.",
-        "Won Second Place in the I-Techrity Hackathon from IWatch"
+      "Diginvo is a platform that allows you to create & manage invoices",
+      "The Platform is build on Private Hyperledger Fabric Network.",
+      "The Frontend is built using React, Typescript and Tailwind.",
+      "Won Second Place in the I-Techrity Hackathon from IWatch"
     ],
     "image": "/projects/diginvo.png",
     "links": [
@@ -123,9 +176,9 @@
     "title": "Investee",
     "when": "Jan 2023",
     "description": [
-        "This work was part of an academic project in Scrum methodology.",
-        "Investee is a platform that allows you as an event holder, athlete, etc to look for sponsors",
-        "I have contributed to the Frontend of the platform using React, Typescript and Tailwind."
+      "This work was part of an academic project in Scrum methodology.",
+      "Investee is a platform that allows you as an event holder, athlete, etc to look for sponsors",
+      "I have contributed to the Frontend of the platform using React, Typescript and Tailwind."
     ],
     "image": "/projects/investee.png",
     "links": [
@@ -141,8 +194,8 @@
     "title": "Gosher",
     "when": "Dec 2022",
     "description": [
-        "This work was part of an academic project in Distributed Systems.",
-        "A file sharing protocol, built with Golang and gRPC."
+      "This work was part of an academic project in Distributed Systems.",
+      "A file sharing protocol, built with Golang and gRPC."
     ],
     "image": "/projects/gosher.jpeg",
     "links": [
@@ -158,8 +211,8 @@
     "title": "KANG, the Multiverse",
     "when": "Dec 2022",
     "description": [
-        "This Project was part of the Tunisian Metaverse Summit Hackathon.",
-        "The Kang Protocol is promised to be the Metaverse Project that brings all metaverses to each other, by providing a Developer friendly API to create and manage Users Identities, Assets... with the possibility of interacting with other metaverses built with the same Protocol, therefore building the Multiverse or Interoperability."
+      "This Project was part of the Tunisian Metaverse Summit Hackathon.",
+      "The Kang Protocol is promised to be the Metaverse Project that brings all metaverses to each other, by providing a Developer friendly API to create and manage Users Identities, Assets... with the possibility of interacting with other metaverses built with the same Protocol, therefore building the Multiverse or Interoperability."
     ],
     "image": "/projects/kang.png",
     "links": [
@@ -175,8 +228,8 @@
     "title": "Eduverse",
     "when": "Nov 2022",
     "description": [
-        "This Project was part of the The Upside Education Hackathon.",
-        "Eduverse is an Educational Metaverse that aims to provide a platform for students to learn and interact with each other in a virtual environment."
+      "This Project was part of the The Upside Education Hackathon.",
+      "Eduverse is an Educational Metaverse that aims to provide a platform for students to learn and interact with each other in a virtual environment."
     ],
     "image": "/projects/eduverse.png",
     "links": [
@@ -196,10 +249,10 @@
     "title": "Spendenbox",
     "when": "Oct 2022",
     "description": [
-        "This Project was part of the The FSB Hackathon.",
-        "Spendenbox is a platform that allows you to create and manage donation and campaign boxes.",
-        "The Platform is built using React, Typescript, NestJS, Solidity and Stripe.",
-        "Won First Place in the FSB Hackathon"
+      "This Project was part of the The FSB Hackathon.",
+      "Spendenbox is a platform that allows you to create and manage donation and campaign boxes.",
+      "The Platform is built using React, Typescript, NestJS, Solidity and Stripe.",
+      "Won First Place in the FSB Hackathon"
     ],
     "image": "/projects/fsb.png",
     "links": [
@@ -219,14 +272,13 @@
     "title": "Kane, TICAD8",
     "when": "sept 2022",
     "description": [
-        "This Project was part of the The TICAD8 Hackathon.",
-        "Kane is a Carbon Emission Footprint Monitoring Platform that allows you to monitor your carbon footprint in real time",
-        "The Platform is built using React, Typescript, Go.",
-        "Won First Place in the TICAD8 Hackathon, Carbon Emission Challenge"
+      "This Project was part of the The TICAD8 Hackathon.",
+      "Kane is a Carbon Emission Footprint Monitoring Platform that allows you to monitor your carbon footprint in real time",
+      "The Platform is built using React, Typescript, Go.",
+      "Won First Place in the TICAD8 Hackathon, Carbon Emission Challenge"
     ],
     "image": "/projects/kane.png",
-    "links": [
-    ],
+    "links": [],
     "tags": ["TS", "React", "Go", "Hackathons", "2022"],
     "note": null
   },
@@ -234,14 +286,13 @@
     "title": "Talan, Summer Internship 2022",
     "when": "july-auguest 2022",
     "description": [
-        "As part of the summer internship at Innovation Factory at Talan Tunisia, I have worked on building a Blockchain Infrastructure for a Sport Metaverse.",
-        "The Platform is built using React, Typescript, Solidity, Polygon.",
-        "I have worked on Decentralized Identity, DAOs, and built a frontend for the DAO.",
-        "Was recognized as the best interns team, voted by the Talan Jury."
+      "As part of the summer internship at Innovation Factory at Talan Tunisia, I have worked on building a Blockchain Infrastructure for a Sport Metaverse.",
+      "The Platform is built using React, Typescript, Solidity, Polygon.",
+      "I have worked on Decentralized Identity, DAOs, and built a frontend for the DAO.",
+      "Was recognized as the best interns team, voted by the Talan Jury."
     ],
     "image": "/projects/talan.png",
-    "links": [
-    ],
+    "links": [],
     "tags": ["TS", "React", "Blockchain", "Internship", "2022"],
     "note": null
   },
@@ -249,19 +300,19 @@
     "title": "Implementing DevOps with Kubernetes and Microservices",
     "when": " 2022",
     "description": [
-        "This work was part of an academic project in The Final Year Project 2022.",
-        "We have successfully built our own Memes App, fully in microservices, wrote the CI Pipelines and deployed it all to Microsoft Azure on Kubernetes."
+      "This work was part of an academic project in The Final Year Project 2022.",
+      "We have successfully built our own Memes App, fully in microservices, wrote the CI Pipelines and deployed it all to Microsoft Azure on Kubernetes."
     ],
     "image": "/projects/ppp.png",
     "links": [
-        {
-            "label": "Check out Gitlab Repo",
-            "url": "https://gitlab.com/Nie-Mand/insat-rt3-ppp/"
-        },
-        {
-            "label": "Read the Report",
-            "url": "https://www.linkedin.com/posts/nie-mand_ppp-report-activity-6938658777415999488-V4WB"
-        }
+      {
+        "label": "Check out Gitlab Repo",
+        "url": "https://gitlab.com/Nie-Mand/insat-rt3-ppp/"
+      },
+      {
+        "label": "Read the Report",
+        "url": "https://www.linkedin.com/posts/nie-mand_ppp-report-activity-6938658777415999488-V4WB"
+      }
     ],
     "tags": ["DevOps", "Kubernetes", "Academic", "2022"],
     "note": "First DevOps Project, I kinda Like Kubernetes now."
@@ -270,15 +321,15 @@
     "title": "The Programming Battle Royale 2022",
     "when": " 2022",
     "description": [
-        "Built, Deployed & monitored A Competitive Programming Platform that were used to host a Real world Contest",
-        "The Platform is based on Rounds and Qualification and Speed. The first 90% to solve the Problem gets qualied to the next round and so on till there's only 3 teams left"
+      "Built, Deployed & monitored A Competitive Programming Platform that were used to host a Real world Contest",
+      "The Platform is based on Rounds and Qualification and Speed. The first 90% to solve the Problem gets qualied to the next round and so on till there's only 3 teams left"
     ],
     "image": "/projects/pbr.png",
     "links": [
-        {
-            "label": "Visit the website",
-            "url": "https://tpbr.vercel.app/"
-        }
+      {
+        "label": "Visit the website",
+        "url": "https://tpbr.vercel.app/"
+      }
     ],
     "tags": ["React", "TS", "GraphQL", "2022"],
     "note": "First Big Project that I have worked on"
@@ -299,11 +350,10 @@
     "title": "Street Car Hub, Summer Internship 2021",
     "when": "july-auguest 2021",
     "description": [
-        "As part of the summer internship at Street Car Hub, I have worked on building a Calendar View To Handle Appointments using ReactJS, Redux"
+      "As part of the summer internship at Street Car Hub, I have worked on building a Calendar View To Handle Appointments using ReactJS, Redux"
     ],
     "image": "/projects/sch.jpg",
-    "links": [
-    ],
+    "links": [],
     "tags": ["React", "Redux", "Internship", "2021"],
     "note": "Learned a lot from my Supervisor"
   },
